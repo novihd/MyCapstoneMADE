@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> MyCapstoneMADE</string>
+    <string name="sport_app"> 스포츠 앱</string>
+    <string name="lets_looking_for_your_favorite_sport"> 좋아하는 스포츠를 찾을 수 있습니다!</string>
+    <string name="oops_something_went_wrong"> 죄송합니다 .. 문제가 발생했습니다.</string>
+    <string name="soccer"> 축구</string>
+    <string name="sport_picture"> 스포츠 사진</string>
+    <string name="desc_soccer"> 축구 또는 축구로 더 일반적으로 알려진 협회 축구</string>
+    <string name="favorite"> 즐겨 찾기</string>
+    <string name="home"> 홈 </string>
+    <string name="setting"> 설정 </string>
+    <string name="add_fav"> 좋아하는 스포츠에 추가</string>
+    <string name="remove_fav"> 좋아하는 스포츠에서 제거됨</string>
+    <string name="language"> 언어</string>
+    <string name="change_language"> 언어 변경</string>
+    <string name="title_favorite"> 즐겨 찾기</string>
+</resources>

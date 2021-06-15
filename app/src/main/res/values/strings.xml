@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyCapstoneMADE</string>
+    <string name="sport_app">Sport App</string>
+    <string name="lets_looking_for_your_favorite_sport">Lets looking for your favorite Sport!</string>
+    <string name="oops_something_went_wrong">Oops.. something went wrong</string>
+    <string name="soccer">Soccer</string>
+    <string name="sport_picture">Sport Picture</string>
+    <string name="desc_soccer">Association football, more commonly known as football or soccer</string>
+    <string name="favorite">Favorite</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="add_fav">Added to your Favorite Sport</string>
+    <string name="remove_fav">Removed from your Favorite Sport</string>
+    <string name="language">Language</string>
+    <string name="change_language">Change Language</string>
+    <string name="title_favorite">Favorite</string>
+</resources>

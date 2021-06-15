@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> MyCapstoneMADE </string>
+    <string name="sport_app"> Aplikasi Olahraga </string>
+    <string name="lets_looking_for_your_favorite_sport"> Ayo cari Olahraga favorit Anda! </string>
+    <string name="oops_something_went_wrong"> Ups .. ada yang tidak beres </string>
+    <string name="soccer"> Soccer </string>
+    <string name="sport_picture"> Gambar Olahraga </string>
+    <string name="desc_soccer"> Sepak bola asosiasi, lebih dikenal sebagai sepak bola atau sepak bola </string>
+    <string name="favorite"> Favorit </string>
+    <string name="home"> Beranda </string>
+    <string name="setting"> Pengaturan </string>
+    <string name="add_fav"> Ditambahkan ke Olahraga Favorit Anda </string>
+    <string name="remove_fav"> Dihapus dari Olahraga Favorit Anda </string>
+    <string name="language"> Bahasa </string>
+    <string name="change_language"> Ubah Bahasa </string>
+    <string name="title_favorite"> Favorit </string>
+</resources>
