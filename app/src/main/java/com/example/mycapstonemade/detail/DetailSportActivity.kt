@@ -12,10 +12,6 @@ import org.koin.android.viewmodel.ext.android.viewModel
 
 class DetailSportActivity : AppCompatActivity() {
 
-    companion object {
-        const val EXTRA_DATA = "extra_data"
-    }
-
     private val detailSportViewModel: DetailSportViewModel by viewModel()
     private lateinit var activityDetailSportBinding: ActivityDetailSportBinding
 
@@ -62,5 +58,9 @@ class DetailSportActivity : AppCompatActivity() {
         } else {
             activityDetailSportBinding.fab.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_baseline_favorite_border_24))
         }
+    }
+
+    companion object {
+        const val EXTRA_DATA = "extra_data"
     }
 }

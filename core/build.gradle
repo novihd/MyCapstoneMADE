@@ -18,12 +18,20 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+
+        buildConfigField("String" , "BASE_URL" , "\"https://www.thesportsdb.com/api/v1/json/1/\"")
+        buildConfigField("String" , "HOSTNAME" , "\"www.thesportsdb.com\"")
+        buildConfigField("String" , "PIN" , "\"sha256/ctt1haazs8U6LJbBhG1dMDCxflw6Q5LRFqlJP+iCf3E=\"")
     }
 
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles 'proguard-rules.pro'
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -58,4 +66,6 @@ dependencies {
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
     androidTestImplementation "androidx.room:room-testing:$room_version"
+    implementation "net.zetetic:android-database-sqlcipher:$sql_cipher"
+    implementation "androidx.sqlite:sqlite-ktx:$sql_lite"
 }

@@ -4,12 +4,12 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="8dp"
-    app:cardCornerRadius="15dp"
-    xmlns:tools="http://schemas.android.com/tools">
+    app:cardCornerRadius="15dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/third"
         android:padding="16dp">
 
         <ImageView
@@ -17,18 +17,18 @@
             android:layout_width="200dp"
             android:layout_height="120dp"
             android:scaleType="centerCrop"
+            android:background="@color/second"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@tools:sample/avatars"
             android:contentDescription="@string/sport" />
 
         <TextView
             android:id="@+id/tv_sport"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_regular"
-            tools:text="Soccer"
+            android:background="@color/second"
             android:textColor="@color/third"
             android:textSize="18sp"
             android:layout_marginStart="16dp"
